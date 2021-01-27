@@ -37,10 +37,6 @@ PRODUCT_COPY_FILES += \
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1200
 
-# Changelog
-PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/rootdir/etc/CHANGES.txt:$(TARGET_COPY_OUT_SYSTEM)/etc/CHANGES.txt
-
 # Device properties
 $(call inherit-product, $(DEVICE_PATH)/device_prop.mk)
 
@@ -55,10 +51,6 @@ PRODUCT_COPY_FILES += \
 # Keylayout
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/keylayout/sdm660-snd-card_Button_Jack.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/sdm660-snd-card_Button_Jack.kl
-
-# Manifest
-PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/rootdir/etc/build-manifest.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/build-manifest.xml
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
