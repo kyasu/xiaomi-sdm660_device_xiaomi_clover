@@ -7,26 +7,8 @@
   },
   {
     "remote":      "github",
-    "repository":  "kyasu/android_vendor_xiaomi_sdm660-common",
-    "target_path": "vendor/xiaomi/sdm660-common",
-    "branch":      "lineage-18.1"
-  },
-  {
-    "remote":      "github",
-    "repository":  "xiaomi-sdm660/android_kernel_xiaomi_sdm660",
-    "target_path": "kernel/xiaomi/sdm660",
-    "branch":      "master"
-  },
-  {
-    "remote":      "github",
-    "repository":  "xiaomi-sdm660/android_vendor_xiaomi_clover",
+    "repository":  "kyasu/android_vendor_xiaomi_clover",
     "target_path": "vendor/xiaomi/clover",
-    "branch":      "master"
-  },
-  {
-    "remote":      "github",
-    "repository":  "xiaomi-sdm660/android_vendor_xiaomi_Miuicamera",
-    "target_path": "vendor/xiaomi/MiuiCamera",
-    "branch":      "master"
+    "branch":      "lineage-18.1"
   }
 ]
