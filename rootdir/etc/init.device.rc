@@ -62,6 +62,9 @@ on boot
     setprop persist.vendor.camera.exif.model "Mi PAD 4"
     setprop persist.sys.exif.model "Mi PAD 4"
 
+# Single SIM
+    setprop persist.radio.multisim.config "ssss"
+
 service macaddress_setup /vendor/bin/sh /vendor/bin/init.macaddress_setup.sh
    class main
    user root
